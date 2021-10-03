@@ -1,0 +1,88 @@
+body {
+  background-color: #1c0c5b;
+  color: white;
+}
+
+.col {
+  color: white;
+}
+
+#main-navbar {
+  background-color: #e94560;
+}
+
+#navbarNav {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+#jumbotron {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  color: black;
+  background-image: url(../file/img/wallpaperflare.com_wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#jumbotron2 {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  color: black;
+  background-image: url(../file/img/wallpaperflare.com_wallpaper\ \(11\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#jumbotron2 h1 {
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+}
+#jumbotron2 p {
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+}
+
+::-webkit-scrollbar {
+  /* width: 5px; */
+  display: none;
+}
+/* 
+::-webkit-scrollbar-track {
+  background-color: #1A1A2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff002b;
+} */
+
+.bg-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url("../file/img/wallpaperflare.com_wallpaper\ \(11\).jpg");
+}
+.img2 {
+  background-image: url("../file/img/wallpaperflare.com_wallpaper\ \(10\).jpg");
+}
+
+.card {
+  background-color: #000;
+}
+#btn-crd:hover {
+  /* color: #FFF; */
+  /* background: #7b0ec9; */
+  box-shadow: 0 0 50px #7b0ec9;
+}

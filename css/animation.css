@@ -1,0 +1,179 @@
+.nav-item {
+  transition: 0.5s;
+}
+
+.navbar-brand {
+  transition: 0.5s;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  transform: scale(1.4);
+  /* background-color: #fa8181; */
+  border-radius: 9px;
+  /* color: black; */
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  transform: scale(1.2);
+}
+
+.bg-image {
+  height: 50%;
+}
+
+.img1 {
+  background-image: url("../file/img/wallpaperflare.com_wallpaper\ \(10\).jpg");
+}
+.img2 {
+  background-image: url("../file/img/wallpaperflare.com_wallpaper\ \(11\).jpg");
+}
+/* .img3 { background-image: url("img_lights.jpg"); }
+.img4 { background-image: url("img_nature.jpg"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); } */
+
+#rgt {
+  animation-name: rgt;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+#lft {
+  animation-name: lft;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+#jumbotron {
+  animation-name: fd;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+#jumbotron2 {
+  animation-name: fd;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+
+@keyframes rgt {
+  0% {
+    transform: translate(100%, 0);
+  }
+  50% {
+    transform: translate(50%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+@keyframes lft {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  50% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+@keyframes fd {
+  0% {
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#mn-ln {
+  animation-name: mn-ln;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mn-ln {
+  0% {
+    transform: translate(-75%, 0);
+  }
+  50% {
+    transform: translate(75%, 0);
+  }
+  100% {
+    transform: translate(-75%, 0);
+  }
+}
+
+#py-img {
+  animation-name: rtt;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes rtt {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#spiltter {
+  animation-name: splty;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes splty {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
